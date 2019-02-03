@@ -1,0 +1,46 @@
+* {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 500;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 10px auto;
+  flex-wrap: wrap;
+  border-radius: 25px;
+  background-color: rgb(204, 202, 202);
+  align-content: center;
+  border: 2.5px solid black;
+  box-shadow: 3px 3px 5px;
+}
+.deck {
+  width: 660px;
+  min-height: 500px;
+  background-color: gray;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 3px 3px 5px;
+  list-style-type: none;
+  text-align: center;
+  padding: 20px 10px;
+  border: 2.5px solid black;
+}
+.card {
+  display: flex;
+  border-radius: 10px;
+  margin: 10px 10px 0 0;
+  width: 125px;
+  height: 125px;
+  background-color: rgb(211, 208, 208);
+  border: 2.5px solid black;
+  cursor: pointer;
+  box-shadow: 1px 1px 3px;
+}
+.card:hover {
+  background-color: rgb(236, 235, 235);
+}
